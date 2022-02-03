@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#input {
+  width: 20%;
+  height: 50px;
+  outline: none;
+  padding: 20px;
+  background-color: transparent;
+  font-size: 22px;
+  color: chartreuse;
+  transition: 0.5s;
+  border: 1px solid rgba(0, 0, 0, 0, 4);
+}
+
+#input::placeholder {
+  color: orange;
+  font-size: 22px;
+}
+
+#output {
+  width: 20%;
+  margin-top: 50px;
+  font-size: 25px;
+  flex-direction: column;
+}
+
+#input:focus {
+  background-color: tan;
+  border-color: royalblue;
+  width: 30%;
+  box-shadow: 5px 5px 10px darkkhaki;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: cadetblue;
+}
